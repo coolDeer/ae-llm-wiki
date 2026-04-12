@@ -12,6 +12,17 @@ type: log
 
 ---
 
+## [2026-04-12] update | 增加 Codex 兼容入口（AGENTS.md）
+
+**触发事件**：知识库最初以 Claude Code 为主，根目录仅有 `CLAUDE.md`。为兼容 Codex，需要提供其默认识别的 `AGENTS.md`，同时保留现有 Claude 工作流。
+
+**本次调整**：
+- 新增根目录 `AGENTS.md`，内容与 `CLAUDE.md` 对齐，供 Codex 作为 schema 入口读取
+- 更新 `CLAUDE.md` 顶部说明与 schema 描述，明确 `CLAUDE.md` / `AGENTS.md` 为双入口、同一套规则
+- 约定今后若调整 wiki 规则、目录结构或工作流，需同时维护两份文件，避免不同 agent 读取到不同规范
+
+**预期效果**：Claude Code 与 Codex 都能在仓库根目录发现自己的默认 schema 文件，并基于同一套 wiki 约定执行 ingest、query 和 lint。
+
 ## [2026-04-12] update | CLAUDE.md source 模板迭代 + 磷化铟 source 页面修正
 
 **触发事件**：用户提问"住友这种日商对扩产是否比较谨慎"，检索 wiki 时发现此信息在 [[source/磷化铟调研-260410]] 的摘要中被遗漏。原文中有明确问答，但在 ingest 时未被提取到 source 页面。
