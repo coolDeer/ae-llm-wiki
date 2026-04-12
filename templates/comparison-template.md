@@ -1,6 +1,6 @@
 ---
 type: comparison
-title: 
+title:
 entities: []
 framework: ""
 tags: []
