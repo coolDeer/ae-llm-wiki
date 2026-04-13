@@ -23,7 +23,11 @@ sources:
   - "[[source/acecamp-Anthropic-ARR-算力合作-260412]]"
   - "[[source/substack-GPUs-6x-TurboQuant-260412]]"
   - "[[source/cb-AI服务器海外市场ODM-260412]]"
-last_updated: "2026-04-12"
+  - "[[source/ace-TPU出货更新与AI算力动态-260413]]"
+  - "[[source/ace-OCS内存基础设施架构逻辑-260413]]"
+  - "[[source/mm-1.6T光模块供应链与CPO-OCS访谈-260413]]"
+  - "[[source/mm-SMBC-NVIDIA-GTC2026光互联趋势-260413]]"
+last_updated: "2026-04-13"
 ---
 
 # AI 基础设施
@@ -141,6 +145,25 @@ AI 服务器中自研 ASIC 占比：~5%（2024）→ 8–9%（2025）→ 15%（2
 | 合计 | ~79,000 |
 
 （来源：[[source/cb-AI服务器海外市场ODM-260412]]）
+
+## OCS 与光互连的新发展（2026-04 更新）
+
+> ⚠️ 更新（2026-04-13）：OCS 从"带宽设备"向"内存基础设施"的估值框架重构。（来源：[[source/ace-OCS内存基础设施架构逻辑-260413]]，[[source/mm-1.6T光模块供应链与CPO-OCS访谈-260413]]）
+
+- **1.6T 光模块 2026 年出货预测**：约 1,500 万颗（已计入供应约束）；InnoLight ~50%、Eoptolink ~25%、Coherent ~22%
+- **OCS 需求**：谷歌 2026 年约 18,000 台，2027 年超 30,000 台；整体市场 CAGR 30–50%
+- **CPO 定位**：纯增量市场（替代机架内铜缆，不替代可插拔光模块）；NVIDIA Feynman 平台（2028）将集成 CPO
+- **光纤超级周期**：AI DC + 长途网络 + 政府项目三驱动力，从 2024H2 起进入历史级超级周期
+
+## NVIDIA GTC 2026 架构更新
+
+> ⚠️ 更新（2026-04-13）：Rubin 平台 LPU 架构详情。（来源：[[source/mm-SMBC-NVIDIA-GTC2026光互联趋势-260413]]）
+
+- **NVIDIA Dynamo（GPU+LPU 混合）**：token 效率提升最高 35 倍；LPU 内置 500MB SRAM，带宽 7x GPU
+- **CSP 自研替代时间表**：推理替代进行中；训练替代要到 2028 年以后
+- **AWS Trainium**：自研芯片年收入 >$100 亿，三位数增长
+
+（来源：[[source/mm-SMBC-NVIDIA-GTC2026光互联趋势-260413]]，[[source/ace-CPU与GPU供需及国内格局-260413]]）
 
 ## 相关公司
 

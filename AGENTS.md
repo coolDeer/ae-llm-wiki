@@ -313,6 +313,7 @@ frontmatter 中 `tags` 使用 YAML 列表，小写英文，多词用短横线：
 
 用户将新素材放入 `raw/` 后，执行以下步骤：
 
+0. **去重检查（必做）**：对每个待 ingest 的 raw 文件，先 grep `wiki/source/*.md` 中的 `raw_path:` frontmatter 字段；若已有 source 页指向同一 raw_path，则该文件视为"已 ingest"，**跳过**该文件并在最终报告中明确标注 `⊝ 已 ingest，跳过：raw/...`。该检查保证 ingest 流程幂等，避免重复 source 页与实体信息叠加污染。
 1. **阅读来源**：仔细阅读 `raw/` 中的原始文件；如同目录存在 `{原文件名}.meta.json` sidecar 也一并读取，从中取出 `research_id` / `research_type` / `title` / `md_url` / `fetched_at` 等元数据备用
 2. **与用户讨论**：列出关键要点，确认用户关注的重点
 3. **创建来源摘要页**：在 `wiki/source/` 创建摘要页：
@@ -328,6 +329,8 @@ frontmatter 中 `tags` 使用 YAML 列表，小写英文，多词用短横线：
 7. **更新 index.md**：添加所有新建/更新页面的条目
 8. **追加 log.md**：记录本次 ingest
 9. **总结**：告知用户本次创建/更新了哪些页面
+10. **建议运行 `/daily-review`**：ingest 完成后，建议立即运行 daily-review skill 对当天的 wiki 增量做 7 问复盘（认知变化 / 反共识数据 / 跨板块串联 / 多空机会 / 知识缺口 / 自我红队），输出到 `wiki/output/daily-review-{date}.md`。这是 epistemic 复盘环节，详见 `skills/daily-review/SKILL.md`
+11. **建议运行 `/daily-summarize`**：daily-review 完成后，运行 daily-summarize skill 把 epistemic 复盘转换为 PM operational 简报，9 章节（执行摘要 / 市场快照 / 组合影响 / 新建仓 / 减仓 / 风险预警 / 催化剂日历 / 研究任务 / 路演要点），输出到 `wiki/output/daily-summarize-{date}.md`。完整日循环：`fetch-reports → ingest → daily-review → daily-summarize`
 
 > 对于超过 50 页的大型文档（如完整年报），分章节处理，每处理一部分与用户确认后再继续。
 

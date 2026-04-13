@@ -20,7 +20,10 @@ sources:
   - "[[source/Verdent-AI-Coding访谈-260410]]"
   - "[[source/acecamp-Anthropic-ARR-算力合作-260412]]"
   - "[[source/substack-Anthropic-Advisor-Strategy-260412]]"
-last_updated: "2026-04-12"
+  - "[[source/mm-AceCamp-Claude-Mythos-网络安全-260413]]"
+  - "[[source/mm-AceCamp-Doubao-竞争格局-260413]]"
+  - "[[source/ace-头部AI模型竞争格局-260413]]"
+last_updated: "2026-04-13"
 confidence: medium
 ---
 
@@ -149,6 +152,24 @@ Batch 处理享受 50% 折扣，prompt caching 最高 90% 折扣。
 - 英国双重上市计划（若推进）
 - Claude 在 M365 Copilot 中默认集成后的市场扩展
 
+## Claude MythOS（新模型预览）
+
+> ⚠️ 更新（2026-04-13）：某网络安全公司高管披露 Claude MythOS 预览信息（Project Glasswings 合作）。（来源：[[source/mm-AceCamp-Claude-Mythos-网络安全-260413]]）
+
+- **网络安全能力**：MythOS 具备意图感知攻击能力，可动态生成零日漏洞链接（将两个无关漏洞链接成新攻击链），传统防火墙/WAF 几乎无防御能力
+- **情绪向量**：模型在语义维度足够高时，自发涌现功能性情绪向量（可直接影响决策），相关研究基于 Sonnet 4.5（2026 年 4 月 2 日论文）
+- **发布策略**：Anthropic 与关键金融基础设施客户（全球系统重要性银行）建立预防性安全合作（Project Glasswings），给客户打补丁时间窗口后再公开发布，防止引发系统性金融风险
+- **战略意义**：通过 MythOS 安全合作实际建立了与全球主要银行的深度关系，超出模型销售本身的商业价值
+
+## Coding 市场主导地位
+
+> ⚠️ 更新（2026-04-13）：Claude 在 Coding/Agent 领域建立了数据飞轮优势。（来源：[[source/mm-AceCamp-Doubao-竞争格局-260413]]，[[source/ace-头部AI模型竞争格局-260413]]）
+
+- Claude 在 Coding Agent 赛道占据主导地位，国内外竞争者均未能挑战
+- 形成"2.0 时代"数据飞轮：开发者在 Claude 上开发 Agent 代码→Claude 优先获得 Agent 开发模式数据→进一步强化能力领先
+- 竞争者蒸馏 Claude 数据只能获取"输出"，无法获取"用户反馈"这一更高价值的标注
+- 法律 AI 领域案例：Harvey 从 OpenAI 转向 Anthropic，愿意支付约 1.5 倍溢价（$2.5→$5/M input tokens），因竞争对手 Legora 深度绑定 Claude Opus 在产品交付质量上取得领先
+
 ## 关键时间线
 
 | 日期 | 事件 |
@@ -160,7 +181,8 @@ Batch 处理享受 50% 折扣，prompt caching 最高 90% 折扣。
 | 2026 年初 | Claude 成为 M365 Copilot 默认模型 |
 | 2026-02 | ARR 约 $190 亿 |
 | 2026-03 | Advisor Strategy Beta 推出 |
-| 2026-04 | ARR 突破 $300 亿 |
+| 2026-04 | ARR 突破 $300 亿；MythOS 预览（Project Glasswings） |
+| 2026-04-02 | Sonnet 4.5 情绪向量论文发布 |
 | 2026-05 | CEO 阿莫代伊访英（计划） |
 | 2027 | 3.5 GW 算力上线（与 Broadcom/Google 协议） |
 | 2031 | Broadcom/Google 算力协议到期 |
@@ -173,8 +195,18 @@ Batch 处理享受 50% 折扣，prompt caching 最高 90% 折扣。
 - [[company/Google]]
 - [[company/OpenAI]]
 
+## 相关页面（更新）
+
+- [[company/Kimi (Moonshot)|Kimi]]
+- [[company/MiniMax]]
+- [[company/智谱]]
+- [[concept/Claude MythOS]]
+
 ## 引用来源
 
 - [[source/Merit-Anthropic企业业务调研-260410|Merit-Anthropic企业业务调研-260410]]
 - [[source/acecamp-Anthropic-ARR-算力合作-260412]]
 - [[source/substack-Anthropic-Advisor-Strategy-260412]]
+- [[source/mm-AceCamp-Claude-Mythos-网络安全-260413]]
+- [[source/mm-AceCamp-Doubao-竞争格局-260413]]
+- [[source/ace-头部AI模型竞争格局-260413]]

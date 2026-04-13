@@ -18,7 +18,9 @@ sources:
   - "[[source/substack-Meta-Muse-Spark-260412]]"
   - "[[source/cb-AWS-Meta人员变动云厂AI策略-260412]]"
   - "[[source/cb-AI服务器海外市场ODM-260412]]"
-last_updated: "2026-04-12"
+  - "[[source/mm-Merit-Applovin-Unity-广告-260413]]"
+  - "[[source/mm-Merit-海外广告平台Q1-260413]]"
+last_updated: "2026-04-13"
 confidence: medium
 ---
 
@@ -131,8 +133,23 @@ Meta AI 1B DAU（3 年目标） × 360 查询/年 × 20% 商业意图 × 10% 转
 - [[industry/北美云厂格局]]
 - [[industry/AI基础设施]]
 
+## 广告业务更新（2026-04-13）
+
+> ⚠️ 更新（2026-04-13）：Q1 2026 广告实际数据。（来源：[[source/mm-Merit-Applovin-Unity-广告-260413]]，[[source/mm-Merit-海外广告平台Q1-260413]]）
+
+- **Q1 YoY 增速 +11.5%**（高于预期 9.5-10.5%），驱动：大流量池 + Advantage+ AI 工具规模化 + AI 创意生成（预算配置 +25-35%）
+- **Advantage+ 创意 AI 视频**：对短视频/轮播效果好，对高端品牌内容效果差；投入同比增加 25-35%
+- **Advantage+ Lead Campaign**：CAC -20-35%，CVR +15-25%，ROI +20-30%（已从 1-2% 预算扩展至 6-9%）
+- **WhatsApp 广告**：仍处非常早期阶段，用户接受度低，预算下调至 0.5-1.5%（印度/巴西市场较好，约 2%）
+- **Q1 关键指标**：CPM +3-6%，ROI +3-8%
+- **全年预测**：广告增速约 14.5%，维持中速增长
+- **移动游戏广告市场**：Meta 作为一线平台 ROI 为 2.4-2.8，CPA 约 $30+，显著高于二线平台
+- **市场份额**：游戏广告主中 Meta 预算占比 >30%，居首
+
 ## 引用来源
 
 - [[source/substack-Meta-Muse-Spark-260412]]
 - [[source/cb-AWS-Meta人员变动云厂AI策略-260412]]
 - [[source/cb-AI服务器海外市场ODM-260412]]
+- [[source/mm-Merit-Applovin-Unity-广告-260413]]
+- [[source/mm-Merit-海外广告平台Q1-260413]]

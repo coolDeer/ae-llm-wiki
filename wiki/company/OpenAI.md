@@ -19,7 +19,10 @@ sources:
   - "[[source/cb-OpenAI梯云纵生态布局-260412]]"
   - "[[source/substack-Meta-Muse-Spark-260412]]"
   - "[[source/cb-AWS-Meta人员变动云厂AI策略-260412]]"
-last_updated: "2026-04-12"
+  - "[[source/cb-OpenAI-Atlas浏览器-260413]]"
+  - "[[source/mm-AceCamp-Doubao-竞争格局-260413]]"
+  - "[[source/cb-AWS-vs-Azure-vs-GCP-260413]]"
+last_updated: "2026-04-13"
 confidence: medium
 ---
 
@@ -89,9 +92,18 @@ OpenAI 主导的循环嵌套资本架构：
 ## 产品矩阵
 
 - **ChatGPT**：全球最大 AI 消费者产品，月活 9.61 亿
-- **GPT API**：多版本模型（GPT-5 等），开发者生态
+- **GPT API**：多版本模型（GPT-5 等），开发者生态；Agent 能力极强（ChatGPT 内置多模态+用户记忆，可直接构建自定义 Agent）
+- **ChatGPT Atlas 浏览器**（2025 年 10 月推出，macOS 先行）：AI 原生浏览器，强调 Agent 能力、用户记忆、网页内操作自动化；竞争 Chrome/Edge（来源：[[source/cb-OpenAI-Atlas浏览器-260413]]）
 - **Sora**（视频生成）
 - **Stargate**：与软银/甲骨文合资，2029 年前投资 $5000 亿 AI 基础设施
+
+## 独立化战略
+
+> 更新（2026-04-13）：OpenAI 正在系统性构建与多方云厂/芯片商的独立合作关系。（来源：[[source/cb-AWS-vs-Azure-vs-GCP-260413]]）
+
+- 与 AWS 合作使用 Trainium 芯片，试图摆脱对微软 Azure 和英伟达的单一依赖
+- 定位为"AI 时代的独立合作人"——同时从微软、亚马逊、软银、英伟达获取资源，不被任何一家独占绑定
+- 将自身定位为"公有云的竞争对手"，长期或推出 OpenAI Cloud 自有服务
 
 ## 风险因素
 
@@ -128,8 +140,15 @@ OpenAI 主导的循环嵌套资本架构：
 - [[industry/北美云厂格局]]
 - [[industry/AI基础设施]]
 
+## 相关页面（更新）
+
+- [[industry/AI浏览器]]
+
 ## 引用来源
 
 - [[source/cb-OpenAI梯云纵生态布局-260412]]
 - [[source/substack-Meta-Muse-Spark-260412]]
 - [[source/cb-AWS-Meta人员变动云厂AI策略-260412]]
+- [[source/cb-OpenAI-Atlas浏览器-260413]]
+- [[source/mm-AceCamp-Doubao-竞争格局-260413]]
+- [[source/cb-AWS-vs-Azure-vs-GCP-260413]]

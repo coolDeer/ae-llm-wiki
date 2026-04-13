@@ -16,7 +16,9 @@ tags: [ai, ai-infrastructure, pcb, ccl, nvidia]
 sources:
   - "[[source/AI平台CCL规格升级-260410]]"
   - "[[source/cb-M9-CCL-260412]]"
-last_updated: "2026-04-12"
+  - "[[source/ace-消费电子散热公司光模块进展-260413]]"
+  - "[[source/mm-1.6T光模块供应链与CPO-OCS访谈-260413]]"
+last_updated: "2026-04-13"
 ---
 
 # AI PCB 与 CCL 材料
@@ -95,7 +97,19 @@ M9 材料存在两条技术路径：
 - [[source/AI平台CCL规格升级-260410]]
 - [[source/cb-M9-CCL-260412]]
 
+## 1.6T 光模块散热（关联）
+
+> ⚠️ 更新（2026-04-13）：消费电子散热公司向光模块散热拓展进展。（来源：[[source/ace-消费电子散热公司光模块进展-260413]]）
+
+- 800G 光模块 VC+液冷板模组价值量：约 200 元；1.6T：约 250 元
+- 散热方案升级路径：TIM 材料 → VC 均热板 → 液冷（AI 驱动光模块功耗大幅提升）
+- 1.6T 供应链：InnoLight ~50%、Eoptolink ~25%、Coherent ~22%、Lumentum ~5%（+NVIDIA 内部 Mellanox ~20%）
+
+（来源：[[source/ace-消费电子散热公司光模块进展-260413]]，[[source/mm-1.6T光模块供应链与CPO-OCS访谈-260413]]）
+
 ## 引用来源
 
 - [[source/AI平台CCL规格升级-260410]]
 - [[source/cb-M9-CCL-260412]]
+- [[source/ace-消费电子散热公司光模块进展-260413]]
+- [[source/mm-1.6T光模块供应链与CPO-OCS访谈-260413]]
