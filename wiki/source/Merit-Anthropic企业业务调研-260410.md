@@ -13,7 +13,7 @@ tags:
   - ai
   - saas
   - enterprise-software
-last_updated: "2026-04-11"
+last_updated: "2026-04-13"
 ---
 
 # Merit - Anthropic 2B 业务调研 & 硬件需求
@@ -61,6 +61,13 @@ Merit 对 [[company/Anthropic|Anthropic]] 企业级业务（2B）进行的深度
 > 客户预算来源发生 "seat-apocalypse"——原本分配给 SaaS 订阅的预算正被重新分配至 AI 工具。
 
 > TCO 构成：实施 40-45%，持续运营 25-30%，基础设施 20-25%，变更管理 12-15%。
+
+## 结构性观察
+
+- **Anthropic 的"Land and Expand"PLG 策略与 OpenAI 的"Top-down ELA"形成对照**：Anthropic 通过 AWS Bedrock/Google Vertex 云市场完成 80%+ 收入，降低了大企业决策门槛，但也意味着关键账户关系由 CSP 掌控而非 Anthropic 自身——这是扩张速度与渠道依赖之间的战略权衡，长期可能形成议价力弱势。
+- **"Seat-apocalypse"效应正在重构 SaaS 企业的定价逻辑**：企业客户不再按席位买软件，而是按使用量和 AI 能力组合付费——这意味着传统 SaaS 公司（Salesforce、ServiceNow 等）的历史付费意愿基准已失效，也意味着 Anthropic 的真实竞争对手是所有被替代的 SaaS 产品，而非仅 OpenAI。
+- **Accenture AABG 30,000 名专业人员 + $100M 生态投资，是 Anthropic 进入大企业的"陆军"**：这一合作伙伴模式复刻了 Salesforce/Workday 的大企业销售 playbook——意味着 Anthropic 的收入增长逻辑已从"模型 API"升级为"行业解决方案"，对应更高的单客户价值和更低的流失率。
+- **多模型策略（Multi-model）的兴起使企业对单一供应商的依赖度降低**：Claude 于 2026 年初成为 M365 Copilot 默认模型，但这同时意味着 Anthropic 的品牌可能被埋在微软产品层之下——渠道优势与品牌稀释是共生关系。
 
 ## 与现有知识的关系
 
